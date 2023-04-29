@@ -7,7 +7,7 @@ Author URI: https://www.os-templates.com/
 Licence: Free to use under our free template licence terms
 Licence URI: https://www.os-templates.com/template-terms
 -->
-<html lang="en">>
+<html lang="en">
 <head>
 <title>Deep Waters</title>
 <meta charset="utf-8">
@@ -19,24 +19,24 @@ Licence URI: https://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row1">
-  <header id="header" class="clear">
+  <header id="header" >
     <div id="logo" class="fl_left"> 
       <!-- ################################################################################################ -->
-      <h1><a href="index.html">Deep Waters</a></h1>
+      <a href="index.html">Deep Waters</a>
       <!-- ################################################################################################ -->
     </div>
     <nav id="mainav" class="fl_right">
       <ul class="clear">
         <!-- ################################################################################################ -->
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a class="drop" href="#">Courses</a>
+        <li><a class="drop" href="#courses">Courses</a>
           <ul>
             <li><a href="#">Beginner</a></li>
             <li><a href="#">Intermediate</a></li>
             <li><a href="#">Professional</a></li>
           </ul>
         </li>
-        <li><a class="drop" href="#">Location </a>
+        <li><a class="drop" href="#divingsite">Location </a>
           <ul>
             <li><a href="#">Java </a></li>
             <li><a href="#">Lombok </a></li>
@@ -92,13 +92,15 @@ Licence URI: https://www.os-templates.com/template-terms
 <script src="https://code.jquery.com/jquery-latest.min.js" ></script>
 <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css'>
 
-<h2 class="font-x2 bold underlined"  style = "text-align: center; color: black; padding: 0 0 20px; padding-top: 50px;" >Courses </h2>
+<h2 class="font-x2 bold underlined"  style = "text-align: center; color: black; padding: 0 0 20px; padding-top: 50px;" id="courses" >Courses </h2>
 <div class="courserow">
   <div class="coursecol"> 
     <article class="one_third first">
       <img src="images/demo/gallery/beginner.jpg" class="img2" alt=" beginner course" >
         <h3 class="font-row">Beginner </h3> 
-        <button class = "animation" > Begin Journey</button>
+        <div class = "buttonleft">
+          <button class = "animation" > Begin Journey</button>
+          </div>
 
       </article>
   </div>
@@ -106,14 +108,18 @@ Licence URI: https://www.os-templates.com/template-terms
     <article class="one_third first">
       <img src="images/demo/gallery/intermediate.jpg" class="img2" alt=" intermediate course" >
       <h3 class="font-row">Intermediate </h3>
-      <button class = "animation" > See All </button>
+      <div class = "buttonleft">
+        <button class = "animation" > See All </button>
+      </div>
     </article>
   </div>
   <div class="coursecol"> 
       <article class="one_third first">
         <img src="images/demo/gallery/prof.jpg" alt=" professional course" class= "img2">
         <h3 class="font-row">Professional </h3>
-        <button class = "animation">Start Now </button>
+        <div class = "buttonleft">
+          <button class = "animation">Start Now </button>
+        </div>
       </article>
   </div>
 </div>
@@ -141,7 +147,7 @@ Licence URI: https://www.os-templates.com/template-terms
   <section class="container clear"> 
     <!-- ################################################################################################ -->
     <div class="btmspace-80 center">
-      <h2 class="font-x2 bold underlined">Popular Diving Sites </h2>
+      <h2 class="font-x2 bold underlined" id="divingsite">Popular Diving Sites </h2>
       <p>Indonesia is the biggest archipelago country in the world. Their waters holds many secret and beauty. These are the places that we recommend to start your diving journey. </p>
     </div>
     <div class="group latest">
